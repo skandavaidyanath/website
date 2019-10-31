@@ -17,28 +17,43 @@ date_format = "Jan 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
-[[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
-  date_end = ""
-  description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
-  """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
+  title = "Research Intern"
+  company = "Max Planck Institute for Informatics"
   company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  location = "Saarbrucken, Germany"
+  date_start = "2019-08-15"
+  date_end = "2020-05-31"
+  description = """Working on deep reinforcement learning applications in NLP and IR to build a conversational recommender system as a part of my undergraduate thesis. """
+  
+  
+[[experience]]
+  title = "Research Intern"
+  company = "USC Institute for Creative Technologies"
+  company_url = ""
+  location = "Los Angeles, USA"
+  date_start = "2019-05-15"
+  date_end = "2019-07-20"
+  description = """Developed reinforcement learning algorithms for human-swarm interactions at the Natural Language Dialogue Group. Part of the [IUSSTF-Viterbi](https://www.iusstf.org/program/iusstf-viterbi-program) summer internship programme"""
+  
+  
+[[experience]]
+  title = "Research Intern"
+  company = "Indira Gandhi Centre for Atomic Research"
+  company_url = ""
+  location = "Kalpakkam, India"
+  date_start = "2018-05-15"
+  date_end = "2018-07-31"
+  description = """Developed a search engine on a nuclear corpus and suggested methods to build a factoid-based question answering system"""
+
+[[experience]]
+  title = "Developer"
+  company = "8K Miles Software Services Ltd."
+  company_url = ""
+  location = "Chennai, India"
+  date_start = "2017-07-01"
+  date_end = "2017-08-01"
+  description = """Worked on several services on the Google Cloud Platform"""
 
 +++

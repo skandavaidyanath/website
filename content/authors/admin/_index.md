@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Nelson Bighetti
+name: Skanda Vaidyanath
 
 # Username (this should match the folder name)
 authors:
@@ -10,32 +10,27 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Final Year Undergraduate Student of Computer Science
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
+- name: BITS Pilani, Hyderabad Campus
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include reinforcement learning, meta learning, deep learning and natural language processing.
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Reinforcement Learning
+- Meta Learning
+- Deep Learning
+- Natural Language Processing
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: BE (Hons) in Computer Science with a Minor in Data science
+    institution: BITS Pilani, Hyderabad Campus
+    year: 2020
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -44,21 +39,18 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
+  link: mailto:skandavaidyanath98@gmail.com  # For a direct email link, use "mailto:test@example.org".
+- icon: linkedin
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://in.linkedin.com/in/skanda-vaidyanath-3750b416a
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/skandavaidyanath
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 # - icon: cv
 #   icon_pack: ai
-#   link: files/cv.pdf
+#   link: files/cv.pdf     #NEED TO CHANGE THIS
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -70,6 +62,11 @@ user_groups:
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a final year undergraduate student of computer science at [BITS Pilani, Hyderabad Campus](https://www.bits-pilani.ac.in/hyderabad/). My research interests include reinforcement learning, deep learning and natural language processing. I like thinking about and working on different applications of RL in the real world - like dialogue systems and human swarm interactions, etc. I'm also interested in thinking about the modeling of RL problems and I often find myself asking the question 'What are the properties of a good state space/reward function?'. Recently, I've also found the idea of meta learning very fascinating and has made me think of the question 'Can I teach an agent that has learned to play tennis, to play badminton?'. I find neural networks very fascinating and often think about how backpropagation works in different deep learning models. A lot of my work also involves NLP and I am very interested in exploring the intersection of NLP and RL.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+I am currently pursuing my undergraduate thesis at the [Max Planck Institute for Informatics](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/) under [Dr. Andrew Yates](https://andrewyates.net/) and [Dr. Paramita Mirza](https://paramitamirza.com/).  
+
+In the past I've had the good fortune of working closely with some amazing researchers such as [Prof. N. L. Bhanu Murthy](https://www.bits-pilani.ac.in/hyderabad/bhanumurthy/Profile), [Prof. Aruna Malapati](https://universe.bits-pilani.ac.in/hyderabad/arunamalapati/Profile), [Prof. Kallirroi Georgila](http://people.ict.usc.edu/~kgeorgila/) and [Prof. David Traum](http://ict.usc.edu/profile/david-traum/).
+
+If you are interested in my work or would like to chat about technical interests we might share, feel free to get in touch!
+
