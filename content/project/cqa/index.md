@@ -1,12 +1,12 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Cqa"
-summary: ""
-authors: []
-tags: []
-categories: []
-date: 2019-11-01T02:57:31+05:30
+title: "Community Question Answering for a distance-learning platform"
+summary: "Developed siamese deep learning architectures to find similar questions from a Q&A archive on a distance learning platform"
+authors: ["admin"]
+tags: ["Natural Language Processing", "Information Retrieval", "Deep Learning"]
+categories: ["Natural Language Processing", "Information Retrieval", "Deep Learning"]
+date: 2018-11-01
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -27,7 +27,7 @@ image:
 #   icon_pack: fab
 #   icon: twitter
 
-url_code: ""
+url_code: "https://github.com/skandavaidyanath/community-question-answering"
 url_pdf: ""
 url_slides: ""
 url_video: ""
@@ -39,3 +39,4 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+CONTENT HERE

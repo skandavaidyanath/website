@@ -2,11 +2,11 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Brain Decoding"
-summary: ""
-authors: []
-tags: []
-categories: []
-date: 2019-11-01T02:58:19+05:30
+summary: "Using machine learning techniques to classify brain signals of patients looking at either a blurry face or a clear face."
+authors: ["admin"]
+tags: ["Other"]
+categories: ["Machine Learning"]
+date: 2019-07-01
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -16,7 +16,7 @@ external_link: ""
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
-  focal_point: ""
+  focal_point: "Center"
   preview_only: false
 
 # Custom links (optional).
@@ -27,8 +27,8 @@ image:
 #   icon_pack: fab
 #   icon: twitter
 
-url_code: ""
-url_pdf: ""
+url_code: "https://github.com/skandavaidyanath/brain_decoding_kaggle"
+url_pdf: "https://drive.google.com/file/d/14xVItQywG2aRG1VwZ-UWn2z60OjJnO8B/view?usp=sharing"
 url_slides: ""
 url_video: ""
 
@@ -39,3 +39,4 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+CONTENT HERE

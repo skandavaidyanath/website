@@ -1,12 +1,12 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Bug Prediction"
-summary: ""
-authors: []
-tags: []
-categories: []
-date: 2019-11-01T04:47:15+05:30
+title: "Software Bug Prediction"
+summary: "Extracting features from source code for bug detection in software projects"
+authors: ["admin"]
+tags: ["Natural Language Processing", "Other"]
+categories: ["Natural Language Processing", "Machine Learning", "Software Engineering"]
+date: 2019-10-01
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -27,8 +27,8 @@ image:
 #   icon_pack: fab
 #   icon: twitter
 
-url_code: ""
-url_pdf: ""
+url_code: "https://github.com/skandavaidyanath/bug-prediction"
+url_pdf: "https://drive.google.com/file/d/1RXpzB-H3jaRKTC7sWKt4xxghbZ0pzqHe/view?usp=sharing"
 url_slides: ""
 url_video: ""
 
@@ -39,3 +39,4 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+CONTENT HERE
