@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Mpii"
+title: "Undergraduate Thesis - MPII"
 summary: ""
 authors: []
 tags: []
@@ -39,3 +39,4 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+This project is for my undergraduate thesis at the Max Planck Institute for Informatics under [Dr. Andrew Yates](https://andrewyates.net/) and [Dr. Paramita Mirza](https://paramitamirza.com/) and is currently in progress. 

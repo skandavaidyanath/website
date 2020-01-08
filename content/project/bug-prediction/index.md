@@ -27,8 +27,8 @@ image:
 #   icon_pack: fab
 #   icon: twitter
 
-url_code: "https://github.com/skandavaidyanath/bug-prediction"
-url_pdf: "https://drive.google.com/file/d/1RXpzB-H3jaRKTC7sWKt4xxghbZ0pzqHe/view?usp=sharing"
+url_code: ""
+url_pdf: ""
 url_slides: ""
 url_video: ""
 
@@ -39,4 +39,4 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-CONTENT HERE
+This project is currently in progress and a research paper is in preparation. I will attach the code, the dataset and the paper once it has been published. This project was done under the guidance of [Prof. N. L. Bhanu Murthy](https://www.bits-pilani.ac.in/hyderabad/bhanumurthy/Profile).

@@ -28,7 +28,7 @@ image:
 #   icon: twitter
 
 url_code: "https://github.com/skandavaidyanath/brain_decoding_kaggle"
-url_pdf: "https://drive.google.com/file/d/14xVItQywG2aRG1VwZ-UWn2z60OjJnO8B/view?usp=sharing"
+url_pdf: "https://drive.google.com/file/d/1UJMWwMW7sPN4jtPR30CqBmZpFm93dxVW/view"
 url_slides: ""
 url_video: ""
 
@@ -39,4 +39,4 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-CONTENT HERE
+This [blog post](https://vamsi-aribandi.github.io/brain_decoding_1/) has some interesting details. The code and a PDF report are available in links above. This project was done by [Vamsi Aribandi](https://vamsi-aribandi.github.io/) and myself.

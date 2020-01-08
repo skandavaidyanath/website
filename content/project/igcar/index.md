@@ -27,9 +27,9 @@ image:
 #   icon_pack: fab
 #   icon: twitter
 
-url_code: "https://github.com/skandavaidyanath/Search-Engine"    
-url_pdf: "https://drive.google.com/file/d/1ujXoO2cB4rMYjtZY9Pr2rx3qoh-TREfe/view?usp=sharing"
-url_slides: "https://drive.google.com/file/d/1EnWq8fNOFcDNbwNH-GEZBZmG5KHXp0Lo/view?usp=sharing"
+url_code: ""    
+url_pdf: "https://drive.google.com/file/d/1ujXoO2cB4rMYjtZY9Pr2rx3qoh-TREfe/view"
+url_slides: "https://drive.google.com/file/d/1EnWq8fNOFcDNbwNH-GEZBZmG5KHXp0Lo/view"
 url_video: ""
 
 # Slides (optional).
@@ -39,4 +39,4 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-CONTENT HERE
+The code for this project cannot be made public. However, you can find a technical report and some slides in the links above. This project was done at the Indira Gandhi Centre for Atomic Research (IGCAR).

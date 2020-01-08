@@ -22,9 +22,8 @@ bio: My research interests include reinforcement learning, meta learning, deep l
 
 interests:
 - Reinforcement Learning
+- Inverse Reinforcement Learning
 - Meta Learning
-- Deep Learning
-- Natural Language Processing
 
 education:
   courses:
@@ -48,9 +47,9 @@ social:
   link: https://github.com/skandavaidyanath
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf     #NEED TO CHANGE THIS
+ - icon: cv
+   icon_pack: ai
+   link: files/cv.pdf     
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -68,7 +67,7 @@ I am a final year undergraduate student of computer science at [BITS Pilani, Hyd
 
 I was recently a part of the [IUSSTF-Viterbi programme 2019](https://www.iusstf.org/program/iusstf-viterbi-program)!
 
-My research interests include reinforcement learning, deep learning and natural language processing. I like thinking about and working on different applications of RL in the real world - like dialogue systems, robotics and personalized learning. I'm also interested in thinking about the modeling of RL problems and I often find myself asking the question _'What are the properties of a good state space/reward function?'_. Recently, I've also found the idea of meta learning very intriguing and has made me think of the question _'Can I teach an agent that has learned to play tennis, to play badminton?'_. I find neural networks very fascinating as well and often think about how backpropagation works in different deep learning models. A lot of my work also involves NLP and IR and I am very interested in exploring the intersection of NLP/IR and RL.  
+My research interests include reinforcement learning (RL), inverse RL and meta RL. I like thinking about and working on different applications of RL in the real world -- like dialogue systems, robotics and personalized learning. A lot of my work also involves NLP and IR and I am very interested in exploring the intersection of NLP/IR and RL. In the future, I hope to conduct some theoretical research in RL as well.  
 
 In the past I've had the good fortune of working closely with some amazing researchers such as [Prof. N. L. Bhanu Murthy](https://www.bits-pilani.ac.in/hyderabad/bhanumurthy/Profile), [Prof. Aruna Malapati](https://universe.bits-pilani.ac.in/hyderabad/arunamalapati/Profile), [Prof. Kallirroi Georgila](http://people.ict.usc.edu/~kgeorgila/) and [Prof. David Traum](http://ict.usc.edu/profile/david-traum/).
 

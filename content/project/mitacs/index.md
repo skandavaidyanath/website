@@ -39,4 +39,4 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-CONTENT HERE
+Python notebook and slides for the project are linked above. This project was done as a part of the applications for the MITACS Globalink programme.

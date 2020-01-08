@@ -27,9 +27,9 @@ image:
 #   icon_pack: fab
 #   icon: twitter
 
-url_code: "https://github.com/skandavaidyanath/human-swarm-usc-ict"
+url_code: ""
 url_pdf: ""
-url_slides: "https://drive.google.com/open?id=1twgbPq7HFnUSUn1C2NUzsGVF8b2_flxS"
+url_slides: ""
 url_video: ""
 
 # Slides (optional).
@@ -39,4 +39,4 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-CONTENT HERE
+This project is currently in progress and a research paper is in preparation. I will attach the code, the slides and the paper once it has been published. This project was done under the guidance of [Prof. Kallirroi Georgila](http://people.ict.usc.edu/~kgeorgila/) and [Prof. David Traum](http://ict.usc.edu/profile/david-traum/).
