@@ -1,13 +1,13 @@
 ---
 title: "Introduction: Why RL?" 
 linktitle: "Introduction: Why RL?"
-toc: true
+toc: false
 type: docs
 date: "2019-05-05T00:00:00+01:00"
 draft: false
 menu:
   rl-course:
-    parent: "Introduction: Why RL?"
+    parent: The RL Course
     weight: 1
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
@@ -37,11 +37,13 @@ The definition speaks about "agents" taking "actions" in "environments" to maxim
 
 > Reinforcement learning is simply learning by trial and error.
 
-{{< figure src="post1_rl.png" title="The RL Setup" lightbox="true" >}}
+{{< figure library="true" src="post1_rl.png" title="The RL Setup. Source: Google Images" lightbox="true" >}}
 
 Think about how you started learning to ride a bike. You probably tried a bunch of different things and continued doing more of what worked ("worked" in this context probably means "did not fall and moved in the intended direction") and less of what didn't. Nobody gave you clear instructions on what to do at each step, you just tried things and they worked. In fact, humans gain several skills in the same fashion. Imagine you're playing a brand new video game without reading the instructions or picking up a new sport. Humans learn several tasks by trial and error and that's exactly what we're trying to emulate with RL. Trying to get as close as possible to the way humans learn.
 
-With that intuition, lets take a jab at the Wikipedia definition again. The "agent" in our biker example is the person trying to learn to ride a bike. The "environment" is everything that may affect the person riding the bike -- so this could be the road, the traffic, the weather, etc. As for "actions", these are the different decisions the agent can make -- for example, they could be "turn left", "turn right", etc. And finally "rewards" is some sort of feedback we get for the series of actions we just took. So we would get a positive reward if we reached our destination and negative if we fell down for example. All these terms will be dealt with more formally in the [next post](courses/rl-course/post2.md). For now, just make sure you get the intuition. 
+With that intuition, lets take a jab at the Wikipedia definition again. The "agent" in our biker example is the person trying to learn to ride a bike. The "environment" is everything that may affect the person riding the bike -- so this could be the road, the traffic, the weather, etc. As for "actions", these are the different decisions the agent can make -- for example, they could be "turn left", "turn right", etc. The agent must decide based on the state of the environment, what the right action to play is at a given point. And finally "rewards" is some sort of feedback we get for the series of actions we just took. So we would get a positive reward if we reached our destination and negative if we fell down for example. All these terms will be dealt with more formally in the next post. For now, just make sure you get the intuition. 
+
+**Bottomline: RL is just learning by trial and error to pick the right actions depending on the state of the environment.**
 
 
 ### How is it different from Supervised learning or Unsupervised learning?
@@ -69,8 +71,8 @@ All this sounds great but what problems can RL solve? So far we've spoken about 
 
 As it turns out there are several. RL is also commonly referred to as **Sequential Decision Making** or **Decision Making under Uncertainty**. When we put it this way, we can think of several applications for RL in the real-world. I'll talk about a few here.
 
-{{< figure src="post1_pong.jpg" title="Atari Games: Pong" lightbox="true" >}}
-{{< figure src="post1_alphazero.jpg" title="AlphaZero: Chess" lightbox="true" >}}
+{{< figure library="true" src="post1_pong.jpg" title="Atari Games: Pong. Source: Google Images" lightbox="true" >}}
+{{< figure library="true" src="post1_alphazero.jpg" title="AlphaZero: Chess. Source: Google Images" lightbox="true" >}}
 
 RL gained massive popularity because of its success at playing Go and Chess and [Atari Games](https://arxiv.org/abs/1312.5602) as well but there are several other applications of RL.
 
@@ -78,12 +80,12 @@ RL is extremely versatile and can be used along with several other common ML are
 
 The best example of using RL with CV is probably self-driving cars. With NLP, it can be used in dialogue systems (I recommend you Google how both of this is done to get a better idea). Another massive application area is in robotics and control. It can be used to train multi-agent systems, for example, a swarm of drones communicating with each other. One of my favourite applications of RL is personalized learning where an RL agent can design an optimal course for a student with the right number of tests/assignments administered at the right time to encourage maximum learning. There is similar work being done on personalized healthcare as well.
 
-{{< figure src="post1_robotics.jpg" title="Robotics" lightbox="true" >}}
+{{< figure library="true" src="post1_robotics.jpg" title="Robotics. Source: Google Images" lightbox="true" >}}
 
 And so there are a ton of different applications you can make using RL. There are also other slightly different uses, for example, RL can be used to [overcome non-differentiable steps in deep learning](post/bridging-the-gaps-with-RL/index.md).
 
 
-And with that, we've answered all the questions that we set out to! We get into a lot more details in the [next post](courses/rl-course/post2.md) so make sure you take a look at that as well. 
+And with that, we've answered all the questions that we set out to! We get into a lot more details in the [next post]({{< ref "/courses/rl-course/post2.md" >}}) so make sure you take a look at that as well. 
 
 Feel free to let me know if you have any feedback!  
 
