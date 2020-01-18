@@ -1,11 +1,11 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Undergraduate Thesis - MPII"
-summary: ""
+title: "Deep RL for Conversational Recommender Systems"
+summary: "Developing an agent to ﬁlter user input for personalized travel recommendations in a conversational recommender system using deep RL"
 authors: []
-tags: []
-categories: []
+tags: ["Reinforcement Learning", "Deep Learning"]
+categories: ["Reinforcement Learning", "Deep Learning"]
 date: 2019-11-01T04:46:38+05:30
 
 # Optional external URL for project (replaces project detail page).
@@ -16,7 +16,7 @@ external_link: ""
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
-  focal_point: ""
+  focal_point: "Center"
   preview_only: false
 
 # Custom links (optional).
