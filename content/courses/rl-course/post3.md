@@ -1,7 +1,7 @@
 ---
 title: "The Bellman Equation and Dynamic Programming"
 linktitle: "The Bellman Equation and Dynamic Programming"
-toc: false
+toc: true
 type: docs
 date: "2019-05-05T00:00:00+01:00"
 draft: false
