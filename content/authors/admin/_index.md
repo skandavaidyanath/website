@@ -61,7 +61,7 @@ social:
 #- Visitors
 ---
 
-I am a final year undergraduate student of computer science at [BITS Pilani, Hyderabad Campus](https://www.bits-pilani.ac.in/hyderabad/). I am currently the class valedictorian and have also served as the captain of the tennis team and as the vice chairperson of the IEEE student branch.
+I am a final year undergraduate student of computer science at [BITS Pilani, Hyderabad Campus](https://www.bits-pilani.ac.in/hyderabad/).
 
 **I am currently pursuing my undergraduate thesis at the [Max Planck Institute for Informatics](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/) under [Dr. Andrew Yates](https://andrewyates.net/) and [Dr. Paramita Mirza](https://paramitamirza.com/).**
 
