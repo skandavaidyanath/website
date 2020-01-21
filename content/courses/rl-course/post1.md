@@ -60,7 +60,7 @@ Lets look at another very common example. We want to teach our computer to play 
 
 {{< figure library="true" src="post1_tic_tac_toe.png" title="Tic Tac Toe Game Tree. Source: Google Images" lightbox="true" >}}
 
-Our data is in the form of several games that have been played from start to finish. If we consider this as training data for our SL model, the only labels we could possibly decipher from these games would be the final outcome -- the winner of the game or if it was a draw. If we are able to somehow encode the game and train a classifier on the data, this SL model would be able to predict the outcome of a game (which is not very useful) but not _how to play the game_. 
+Our data is in the form of several games that have been played from start to finish. If we consider this as training data for our SL model, the only labels we could possibly decipher from these games would be the final outcome -- the winner of the game or if it was a draw. If we are able to somehow encode the game and train a classifier on the data, this SL model would be able to predict the outcome of a game (which is not very useful) but not _how to play the game_. Stop for a second, think about all the different potential SL solutions to this problem and convince yourself that this would be an extremely difficult (if even possible) problem to solve if we do not have supervised labels telling us what the best move is for every board position. 
 
 If we wanted to train a SL model to learn _how to play the game_, we would need training data in the form of _the best move to play at every board position_. But alas, we do not have such information and this is the case in most problems (think about riding a cycle or playing chess or a video game).
 
