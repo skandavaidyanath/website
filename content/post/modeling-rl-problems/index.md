@@ -27,6 +27,8 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+**Disclaimer: The content for this article does not come from any textbook or other reliable sources. They are observations made purely from my very limited experience with RL.**
+ 
 I recommend that you gather some RL basics before you proceed to read this article. The first couple of posts from [the course]({{< ref "/courses/rl-course/_index.md" >}}) on my page could be a good start.
 
 In this article, I'm going to talk about something that I haven't seen anywhere before and nobody really talks about it but I'm going to take a shot at it. I've learned RL on my own and hence I've read several articles on the internet about RL but most of them are about the different algorithms starting from the most basic dynamic programming and going on till the most complex Soft Actor Critic. But having spent some time conducting RL research, I find that nobody really talks about, according to me, the most challenging and interesting problem in RL -- the actual _modeling of the problem_.

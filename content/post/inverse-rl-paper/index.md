@@ -81,7 +81,7 @@ So the final optimization objective is as follows.
 
 {{< figure src="opti.PNG" title="Final optimization problem for the finite state space case. Source: The paper" lightbox="true" >}}
 
-Note that the summation term running from 1 to _N_ is so that we maximize across all the states in the MDP. This can be solved as a LP problem now.
+Note that the summation term running from 1 to _N_ is so that we maximize across all the states in the MDP. Also note that we use our information of the optimal policy implicitly here since we know the best action _a_<sub>1</sub> at every step. This can be solved as a LP problem now.
 
 ## IRL in large state spaces using linear function approximation
 
@@ -103,11 +103,11 @@ The other issue is that since we have restricted ourselves by using linear funct
 
 {{< figure src="opti2.PNG" title="Final optimization problem for the large state space case. Source: The paper" lightbox="true" >}}
 
-_S_<sub>o</sub> is the subsample of states and $p(x) = x$ when $x \\geq 0$ and $2x$ when $x < 0$. This can be solved with LP now.
+_S_<sub>o</sub> is the subsample of states and $p(x) = x$ when $x \\geq 0$ and $2x$ when $x < 0$. $\\pi$ is the optimal policy. This can be solved with LP now.
 
 ## IRL from sampled trajectories
 
-Now, we come to the most interesting and most realistic case. We now try to learn from sampled trajectories from the environment. **We do not require an explicit model of the MDP but we do assume the ability to find an optimal policy under any reward function. We also assume the ability to simulate trajectories in the environment with the optimal policy or any other policy we want.** Also assume there is only a single start state _s_<sub>o</sub>. This is not a string assumption as if there are several start states with an initial state distribution, add an additional state and connect it to each of them.
+Now, we come to the most interesting and most realistic case. We now try to learn from sampled trajectories from the environment. **We do not require an explicit model of the MDP but we do assume the ability to find an optimal policy under any reward function. We also assume the ability to simulate trajectories in the environment with the optimal policy or any other policy we want.** Also assume there is only a single start state _s_<sub>o</sub>. This is not a string assumption as if there are several start states with an initial state distribution, add an additional state and connect it to each of them. This is the most realistic case and is different from the previous cases because we don't have the model of the environment i.e. the _P_ matrices.
 
 Once again, _R_ will be expressed as a linear function approximation in the same form as the previous section. Please refer to the paper and convince yourself that it is possible to use Monte Carlo trajectories to estimate a value function that is also linear in the $\\alpha$ values. The math is quite simple and straight-forward. This is important because it allows us to use LP again.
 

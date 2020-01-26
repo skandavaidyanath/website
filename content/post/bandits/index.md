@@ -28,3 +28,9 @@ image:
 projects: []
 ---
 Coming soon...
+# what is the bandit problem? how different from rl, simpler?
+# applications
+# stationary and non-stationary bandit problems
+# types of solutions -- finding the value fn. i.e. expected payoff, easiest possible soln, easy exploration, softmax exploration, ucb1, naive pac, median elim pac
+# touch up on thompson sampling, policy search, policy gradient reinforce
+# contextual bandits and foray into rl
