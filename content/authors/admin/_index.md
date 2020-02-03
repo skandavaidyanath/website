@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include reinforcement learning, meta learning, deep learning and natural language processing.
+bio: My research interests include reinforcement learning (RL), inverse RL and meta RL.
 
 interests:
 - Reinforcement Learning
@@ -63,7 +63,7 @@ social:
 
 I am a final year undergraduate student of computer science at [BITS Pilani, Hyderabad Campus](https://www.bits-pilani.ac.in/hyderabad/).
 
-**I am currently pursuing my undergraduate thesis at the [Max Planck Institute for Informatics](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/) under [Dr. Andrew Yates](https://andrewyates.net/) and [Dr. Paramita Mirza](https://paramitamirza.com/).**
+**I am currently a research intern at the [Max Planck Institute for Informatics](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/) under [Dr. Andrew Yates](https://andrewyates.net/) and [Dr. Paramita Mirza](https://paramitamirza.com/).**
 
 I was recently a part of the [IUSSTF-Viterbi programme 2019](https://www.iusstf.org/program/iusstf-viterbi-program)!
 
