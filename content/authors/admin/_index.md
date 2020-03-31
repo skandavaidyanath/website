@@ -18,12 +18,13 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include reinforcement learning (RL), inverse RL and meta RL.
+bio: My research interests lie primarily in the area of reinforcement learning (RL) and related areas like inverse RL, meta RL and apprenticeship learning.
 
 interests:
 - Reinforcement Learning
 - Inverse Reinforcement Learning
-- Meta Learning
+- Apprenticeship Learning
+- Meta Reinforcement Learning
 
 education:
   courses:
@@ -65,9 +66,7 @@ I am a final year undergraduate student of computer science at [BITS Pilani, Hyd
 
 **I am currently a research intern at the [Max Planck Institute for Informatics](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/) under [Dr. Andrew Yates](https://andrewyates.net/) and [Dr. Paramita Mirza](https://paramitamirza.com/).**
 
-I was recently a part of the [IUSSTF-Viterbi programme 2019](https://www.iusstf.org/program/iusstf-viterbi-program)!
-
-My research interests include reinforcement learning (RL), inverse RL and meta RL. I like thinking about and working on different applications of RL in the real world -- like dialogue systems, robotics and personalized learning. A lot of my work also involves NLP and IR and I am very interested in exploring the intersection of NLP/IR and RL. In the future, I hope to conduct some theoretical research in RL as well.  
+My research interests lie primarily in the area of reinforcement learning (RL) and related areas like inverse RL, meta RL and apprenticeship learning. Through my research, I hope to gain a better understanding of _how_ machines learn and try to make them learn tasks the same way humans do. My long-term goal would be to develop machines that understand and approach tasks in the same way that a human would. A lot of my work also involves NLP and IR and I am very interested in exploring the intersection of NLP/IR and RL.
 
 In the past I've had the good fortune of working closely with some amazing researchers such as [Prof. N. L. Bhanu Murthy](https://www.bits-pilani.ac.in/hyderabad/bhanumurthy/Profile), [Prof. Aruna Malapati](https://universe.bits-pilani.ac.in/hyderabad/arunamalapati/Profile), [Prof. Kallirroi Georgila](http://people.ict.usc.edu/~kgeorgila/) and [Prof. David Traum](http://ict.usc.edu/profile/david-traum/).
 
