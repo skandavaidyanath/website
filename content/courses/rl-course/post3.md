@@ -14,9 +14,3 @@ menu:
 weight: 3
 ---
 COMING SOON...
-quick recap mdp and markov property. another mdp diagram here
-driving traffic jam example for long term gains vs short term gains and/or heaven-hell mdp?
-exploration-exploitation mouse example
-more symbols q v pi and g recap
-bellman eqn and other eqns connecting q v pi. a full equation flowchart 
-dp
