@@ -24,7 +24,15 @@ menu:
 First couple of posts in the series are out! Third post will be out soon!
 {{% /alert %}}
 
-This is a course on reinforcement learning (RL), the third, often forgotten paradigm of machine learning along with supervised learning and unsupervised learning and is something I am very fascinated by. The reason I love RL so much is because I believe it comes closest to _learning tasks in the same way humans do_. Along with RL and the similar fields like Apprenticeship Learning and Meta Learning, I think we are taking massive steps towards solving the problem of AI.
+> "I always wondered how it would be if a superior species landed on earth and showed us how they play chess. I feel now I know."
+
+> "It doesn’t play like a human, and it doesn’t play like a program. It plays in a third, almost alien, way."
+
+> "In fact, it played so well that it was almost scary..."
+
+The quotes above refer to AlphaZero and AlphaGO, Google DeepMind's AIs that achieved super-human performance in Chess and GO. At the core of these AI systems is an exciting idea that is changing the way view AI -- reinforcement learning.
+
+This is a course on reinforcement learning (RL), the third, often forgotten paradigm of machine learning along with supervised learning and unsupervised learning and is something I am very fascinated by. RL has its roots in behavioural psychology and the reason I love RL so much is because I believe it comes closest to _learning tasks in the same way humans do_. Along with RL and the similar fields like Apprenticeship Learning and Meta Learning, I think we are taking massive steps towards solving the problem of AI.
 
 By the end of this course, I hope to tell you a few things about RL that'll help you gain some knowledge on the subject and also hopefully get you as interested in it as I am. Over this course, I hope to cover several RL fundamentals and algorithms that will give you the intuition and also some math behind RL. I will also try and include some code samples and implementational details wherever I see fit but note that if you're looking for a course that'll just teach you how to implement RL algorithms in Python, this may not be the right one.
 
