@@ -21,7 +21,7 @@ menu:
     weight: 1
 ---
 {{% alert note %}}
-First couple of posts in the series are out! Third post will be out soon!
+Third post out now! Some small yet significant changes made to the first two posts.
 {{% /alert %}}
 
 > "I always wondered how it would be if a superior species landed on earth and showed us how they play chess. I feel now I know."
@@ -41,6 +41,8 @@ We'll start off with a couple of introduction posts and then cover several commo
 I will add additional references if any, at the end of each lecture but most of the content for this course comes from [Reinforcement Learning: An Introduction by Sutton and Barto](http://incompleteideas.net/book/the-book-2nd.html) (from this point will be referred to as "the RL book") and this [NPTEL course](https://nptel.ac.in/courses/106106143/) by [Prof. Balaraman Ravindran](https://www.cse.iitm.ac.in/~ravi/).
 
 I highly recommend some background in probability and maybe even some machine learning (supervised and unsupervised learning) and optimization before you get started with this course (not a lot, but some basics would be nice). A basic understanding of neural networks and backpropagation would be useful for the deep RL posts. However, I will try my best to stick to the course title and make this as much "from scratch" as I can. None of the prerequisites are absolutely essential to get an intuitive idea of RL but would be useful to have a thorough understanding. 
+ 
+I often go back to edit previous posts and I will try to keep this page updated with such changes.
  
 This is the first time I'm doing something like this so please let me know if there's anything different you'd like to see or if I've made any mistakes.
 

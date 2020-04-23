@@ -1,14 +1,14 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Works Like a Charm"
+title: "Dissecting the MAML"
 subtitle: ""
 summary: ""
 authors: ["admin"]
-tags: ["Reinforcement Learning", "Deep Learning", "Information Retrieval"]
-categories: ["Reinforcement Learning", "Deep Learning", "Information Retrieval"]
-date: 2019-11-04T03:10:24+05:30
-lastmod: 2019-11-04T03:10:24+05:30
+tags: ["Meta Learning"]
+categories: ["Meta Learning"]
+date: 2020-04-11T03:53:21+05:30
+lastmod: 2020-04-11T03:53:21+05:30
 featured: false
 draft: false
 
@@ -27,4 +27,4 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
-Coming soon...
+COMING SOON...

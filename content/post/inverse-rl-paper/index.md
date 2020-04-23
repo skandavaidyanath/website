@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "The Inverse Problem"
+title: "Inverse Reinforcement Learning"
 subtitle: ""
 summary: ""
 authors: ["admin"]

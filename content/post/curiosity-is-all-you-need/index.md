@@ -4,9 +4,9 @@
 title: "Curiosity Is All You Need"
 subtitle: ""
 summary: ""
-authors: []
-tags: []
-categories: []
+authors: ["admin"]
+tags: ["Reinforcement Learning"]
+categories: ["Reinforcement Learning"]
 date: 2020-03-06T03:19:30+05:30
 lastmod: 2020-03-06T03:19:30+05:30
 featured: false
@@ -17,7 +17,7 @@ draft: false
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
-  focal_point: ""
+  focal_point: "Center"
   preview_only: false
 
 # Projects (optional).

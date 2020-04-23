@@ -15,9 +15,9 @@ weight: 2
 ---
 In this post, we'll try to get into the real nitty-gritties of RL and build on the intuition that we gained from the [last article]({{< ref "/courses/rl-course/post1.md" >}}). So we'll bring in some mathematical foundation and then introduce some RL parlance that we will use for the rest of this course. I'll stick to the standard notation and jargon from the RL book.
 
-## Two Issues
+## Three Challenges
 
-Before we begin with the mathematical foundations of RL, I'd like to point out some issues with RL and what kinds of problems we need to account for if we were to come up with RL algorithms of our own. Once again, I'm going to move on to a new example so lets take chess this time.
+Before we begin with the mathematical foundations of RL, I'd like to point out three challenges in RL we need to account for if we were to come up with RL algorithms of our own. Once again, I'm going to move on to a new example so lets take chess this time.
 
 {{< figure library="true" src="post1_alphazero.jpg" title="AlphaZero: Chess. Source: Google Images" lightbox="true" >}}
 
@@ -27,7 +27,9 @@ Now assume we have an RL algorithm that can look at several games of chess and t
 
 We need some way for the algorithm to account for the possibility of there being a better move than the one it has found already. So when we train our agent we need to make sure the agent doesn't greedily play the best move it knows all the time but also plays some different moves, hoping that they may be better than the one it already found. This is called the _exploration-exploitation tradeoff_ in RL. Usually, RL algorithms tend to explore i.e. play many random moves initially and when the agent is more sure about the best moves under different circumstances, it starts exploiting that knowledge. We will revisit this problem in the next post with another example.
 
-Lets move on to the next issue that our RL algorithm will have to account for. Lets say our RL algorithm is learning from a game of chess again where the player sacrifices the queen but goes on to win the game. The RL agent immediately registers a negative reward for the loss of the queen but the large positive reward for winning the game only comes much later. But it is entirely possible that the very queen sacrifice that the RL agent probably classified as a bad move, was the reason for the player winning the game. So it is possible that a move seems like a "bad" one in the short term but in the long term, could be a very "good" move. How do we account for this in our algorithm? This is the concept of _delayed rewards_ and we will deal with a simple yet elegant solution for this as well as we go through this post. We will look at another example for this as well in the next post.
+Lets move on to the next challenge that our RL algorithm will have to account for. Lets say our RL algorithm is learning from a game of chess again where the player sacrifices the queen but goes on to win the game. The RL agent immediately registers a negative reward for the loss of the queen but the large positive reward for winning the game only comes much later. But it is entirely possible that the very queen sacrifice that the RL agent probably classified as a bad move, was the reason for the player winning the game. So it is possible that a move seems like a "bad" one in the short term but in the long term, could be a very "good" move. How do we account for this in our algorithm? This is the concept of _delayed rewards_ and we will deal with a simple yet elegant solution for this as well as we go through this post. We will look at another example for this as well in the next post.
+
+And finally our RL algorithm should learn to generalize i.e. it should be able to efficiently learn from the data it collects. One of the major drawbacks in RL is that it requires a lot of data to learn so _generalization_ is important for RL algorithms.
 
 Note that RL is based on the _reward hypothesis_ that states that:
 
@@ -67,16 +69,22 @@ Notationally, we index the sequence of state-action pairs in an episode with a t
 Another crucial thing to note is that actions in an MDP have to be instantaneous in nature. That means you take action _a_<sub>t</sub> from state _s_<sub>t</sub> and end up in state _s_<sub>t+1</sub> immediately. There are several actions in real-world problems that may not be instantaneous but we'll deal with them later. For now, assume your actions are instantaneous.
 
 * _P_ : Now P is the probability function defined as _P_(s<sup>'</sup>| s, a) which is read as the probability of moving to "state s'" from "state s" if the agent plays "action a". So for example, _P_(_S_<sub>2</sub>|_S_<sub>0</sub>,_a_<sub>0</sub>) = 0.5. This is also called the _transition function_.
-* _R_ : This is the _reward function_ or _reinforcement function_ and is defined as _R_(s<sup>'</sup>| s, a) which is the reward the agent gets for moving to "state s'" from "state s" if the agent plays "action a". So for example, _R_(_S_<sub>0</sub>|_S_<sub>1</sub>,_a_<sub>0</sub>) = +5. Rewards are always scalars.
+* _R_ : This is the _reward function_ or _reinforcement function_ and is defined as _R_(s<sup>'</sup>| s, a) which is the reward the agent gets for moving to "state s'" from "state s" if the agent plays "action a". So for example, _R_(_S_<sub>0</sub>|_S_<sub>1</sub>,_a_<sub>0</sub>) = +5. However, the answer may not be as simple as a single number and the reward could be sampled from a probability distribution i.e. _R_(s<sup>'</sup>| s, a) is a probability distribution that we will try to estimate by interaction with the environment. There are some other forms of reward functions like _R_(s,a) or even just _R_(s) as well. Note that rewards are always scalars because they are easier to optimize. They are also usually finite.
 * $\gamma$ : We spoke about the concept of delayed rewards earlier in the post and we wanted a way to accound for delayed effects of actions. This is where $\gamma$ helps. We define the _returns_ of an action from a given state as the sum of the _discounted rewards_ we receive from that state for playing that action. If we started from the state _s_<sub>0</sub>, the returns would be defined as _r_<sub>1</sub> + $\gamma$ _r_<sub>2</sub> + $\gamma$<sup>2</sup> _r_</sub>3</sub> + ... $\gamma$ <sup>_T-1_</sup> _r_<sub>_T_</sub>. We use the word "discounted" because $\gamma$ is usually a number between 0 and 1 and with the increasing powers, we give more weight to the immediate rewards than the delayed rewards. Hence, $\gamma$ is also called the discounting factor. The symbol we use for returns from timestep _t_ is usually _G_<sub>_t_</sub> although some people like using _R_ as well (_r_ for reward and _R_ for returns). We will stick to the former notation. Now going back to the queen sacrifice example, if we were to consider the returns in our algorithm instead of just the immediate reward, we will be able to account for the delayed positive effect and not just the immediate negative effect.
 
 But with all of that information, we still haven't covered that blockquote at the start of this section. No, that wasn't a quote from Avengers: Endgame and it is the most important takeaway from this post. So what does it mean? Mathematically, it means this:
 
 $$P(s\_{t+1}|s\_t,a) = P(s\_{t+1}|s\_t,s\_{t-1},s\_{t-2},s\_{t-3},...,a)$$
 
-But what does that mean intuitively? It means the probability of going to state _s_<sub>t+1</sub> from state _s_<sub>t</sub> under the action _a_ is independent of how we got to state _s_<sub>t</sub> in the first place. If you're thinking this isn't very realistic, you're right but this type of modeling works in most cases and is called _The Markov Property_. The future is independent of the past, given the present i.e. the action from the current state only depends on the current state and not how we got to this state in the first place. So we will stick to this for now.
+But what does that mean intuitively? It means the probability of going to state _s_<sub>t+1</sub> from state _s_<sub>t</sub> under the action _a_ is independent of how we got to state _s_<sub>t</sub> in the first place. If you're thinking this isn't very realistic, you're right but this type of modeling works in most cases and is called _The Markov Property_. The future is independent of the past, given the present i.e. the action from the current state only depends on the current state and not how we got to this state in the first place. 
 
-And with that, we've covered MDPs and how to model RL problems. With this background, I also recommend reading [this]({{< ref "/post/modeling-rl-problems/index.md" >}}). But with that definition, we still haven't accounted for the exploration-exploitation tradeoff. So in the [next post]({{< ref "/courses/rl-course/post3.md" >}}), we'll introduce a few more symbols and definitions and get cracking with our very first RL algorithm!
+We make another assumption of stationarity which means:
+
+$$P(s\_{t+1}=s',r\_{t+1}=r|s\_{t}=s,a\_{t}=a) = P(s',r|s,a)$$
+
+This means that the timestep variable doesn't matter -- no matter at what point we are in the trajectory, given the state _s_ and and action _a_, we always end up sampling the next state _s'_ and the reward _r_ from the same distribution. This is a property of _stationary_ MDPs.
+
+And with that, we've covered MDPs and how to model RL problems. With this background, I also recommend reading [this]({{< ref "/post/modeling-rl-problems/index.md" >}}). But with that definition, we still haven't accounted for the exploration-exploitation tradeoff. So in the [next post]({{< ref "/courses/rl-course/post3.md" >}}), we'll introduce a few more symbols and definitions before we get cracking with our very first RL algorithm!
 
 Once again, let me know if you have any feedback or suggestions.
 
@@ -84,5 +92,5 @@ Once again, let me know if you have any feedback or suggestions.
 
 1. [A (Long) Peek into Reinforcement Learning by Lilian Weng](https://lilianweng.github.io/lil-log/2018/02/19/a-long-peek-into-reinforcement-learning.html)
 2. [David Silver's RL Course at UCL](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html)
-3. For MDP notation, [Algorithms for Inverese Reinforcement Learning](https://ai.stanford.edu/~ang/papers/icml00-irl.pdf)
+3. For MDP notation, [Algorithms for Inverse Reinforcement Learning](https://ai.stanford.edu/~ang/papers/icml00-irl.pdf)
 
