@@ -46,7 +46,7 @@ Now that we're done with that recap, lets get on to some new material. This is t
 #### Returns
 We already discussed what returns are in the previous post, but here is the formal expression
 
-$$G\_t = r\_{t+1}+\gamma r\_{t+2}+...r\_{T} = \sum\_{k=t}^{T-1} \gamma^{k}r\_{t+1}$$
+$$G\_t = r\_{t+1}+\gamma r\_{t+2}+...r\_{T} = \sum\_{k=t}^{T-1} \gamma^{k}r\_{k+1}$$
 
 We end the episode at the timestep _T_ because we assume a finite horizon MDP. Remember that _T_ is a random variable -- for example when we play tic-tact-toe, the game could end in a different number of moves each time. Each of the independent $r\_{k}$ terms are also random variables and hence, $G\_{t}$ is also a random variable. Further, since each reward term is usually finite, the returns does not blow up to infinity.
 As we have already discussed, the discount factor is a number between 0 and 1 and often close to 1 and is chosen according to the problem at hand. Also recall that $r\_{t+1}$ is the reward received by performing action $a\_{t}$ at state $s\_{t}$ ; $r\_{t+1} = R(s\_{t}, a\_{t})$ where _R_ is the reward function.
