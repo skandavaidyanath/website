@@ -39,7 +39,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:skandavaidyanath98@gmail.com  # For a direct email link, use "mailto:test@example.org".
+  link: mailto:svaidyan@stanford.edu  # For a direct email link, use "mailto:test@example.org".
 - icon: linkedin
   icon_pack: fab
   link: https://in.linkedin.com/in/skanda-vaidyanath-3750b416a
