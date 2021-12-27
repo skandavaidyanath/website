@@ -1,12 +1,12 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Community Question Answering for a distance-learning platform"
-summary: "Developed siamese deep learning architectures to find similar questions from a Q&A archive on a distance learning platform"
-authors: ["admin"]
-tags: ["Natural Language Processing", "Information Retrieval", "Deep Learning"]
-categories: ["Natural Language Processing", "Information Retrieval", "Deep Learning"]
-date: 2018-11-01
+title: "Jigsaw: Large Language Models meet Program Synthesis"
+summary: "Used program synthesis techniques to generate code from multi-modal user input using large language models like GPT-3"
+authors: []
+tags: ["Other", "Natural Language Processing"]
+categories: ["Other", "Natural Language Processing"]
+date: 2021-12-27T12:44:33-08:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -16,7 +16,7 @@ external_link: ""
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
-  focal_point: "Center"
+  focal_point: ""
   preview_only: false
 
 # Custom links (optional).
@@ -28,7 +28,7 @@ image:
 #   icon: twitter
 
 url_code: ""
-url_pdf: ""
+url_pdf: "https://arxiv.org/pdf/2112.02969.pdf"
 url_slides: ""
 url_video: ""
 
@@ -39,4 +39,4 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-Developed deep learning solutions for retrieving similar questions from a large Q&A archive for a distance-learning platform.  This project was done under the guidance of [Prof. N. L. Bhanu Murthy](https://www.bits-pilani.ac.in/hyderabad/bhanumurthy/Profile) and [Prof. Aruna Malapati](https://universe.bits-pilani.ac.in/hyderabad/arunamalapati/Profile).
+Used program synthesis techniques to generate code from multi-modal user input using large language models like GPT-3. Developed a Jupyter notebook extension to generate code from user commands and I/O examples for the Pandas library in Python. This project was done under the guidance of [Dr. Sriram Rajamani](https://www.microsoft.com/en-us/research/people/sriram/) at Microsoft Research, India.

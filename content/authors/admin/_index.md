@@ -10,24 +10,25 @@ authors:
 superuser: true
 
 # Role/position
-role: Final Year Undergraduate Student of Computer Science
+role: First Year Master's Student of Computer Science (AI Track)
 
 # Organizations/Affiliations
 organizations:
-- name: BITS Pilani, Hyderabad Campus
+- name: Stanford University
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests lie primarily in the area of reinforcement learning (RL) and related areas like inverse RL, meta RL and apprenticeship learning.
+bio: My research interests lie primarily in the area of reinforcement learning (RL) and control to build agents that can acquire complex behaviours in the real world via interaction.
 
 interests:
 - Reinforcement Learning
-- Inverse Reinforcement Learning
-- Apprenticeship Learning
-- Meta Reinforcement Learning
+- Imitation Learning
 
 education:
   courses:
+  - course: MS in Computer Science, AI track
+    institution: Stanford University
+    year: 2023
   - course: BE (Hons) in Computer Science with a Minor in Data science
     institution: BITS Pilani, Hyderabad Campus
     year: 2020
@@ -42,7 +43,7 @@ social:
   link: mailto:svaidyan@stanford.edu  # For a direct email link, use "mailto:test@example.org".
 - icon: linkedin
   icon_pack: fab
-  link: https://in.linkedin.com/in/skanda-vaidyanath-3750b416a
+  link: https://in.linkedin.com/in/skanda-vaidyanath
 - icon: github
   icon_pack: fab
   link: https://github.com/skandavaidyanath
@@ -62,13 +63,11 @@ social:
 #- Visitors
 ---
 
-I am a final year undergraduate student of computer science at [BITS Pilani, Hyderabad Campus](https://www.bits-pilani.ac.in/hyderabad/).
+I am a first year master's student of computer science (AI track) at Stanford University.
 
-**I am currently a research intern at the [Max Planck Institute for Informatics](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/) under [Dr. Andrew Yates](https://andrewyates.net/) and [Dr. Paramita Mirza](https://paramitamirza.com/).**
+My research interests lie primarily in the area of reinforcement learning (RL) and control. Through my research, I hope to gain a better understanding of _how_ machines learn and try to make them learn tasks in the same way humans do. My long-term goal would be to develop machines that understand and approach learning tasks in the same way that a human would and can generalize to a variety of settings. 
 
-My research interests lie primarily in the area of reinforcement learning (RL) and related areas like inverse RL, meta RL and apprenticeship learning. Through my research, I hope to gain a better understanding of _how_ machines learn and try to make them learn tasks the same way humans do. My long-term goal would be to develop machines that understand and approach tasks in the same way that a human would. A lot of my work also involves NLP and IR and I am very interested in exploring the intersection of NLP/IR and RL.
-
-In the past I've had the good fortune of working closely with some amazing researchers such as [Prof. N. L. Bhanu Murthy](https://www.bits-pilani.ac.in/hyderabad/bhanumurthy/Profile), [Prof. Aruna Malapati](https://universe.bits-pilani.ac.in/hyderabad/arunamalapati/Profile), [Prof. Kallirroi Georgila](http://people.ict.usc.edu/~kgeorgila/) and [Prof. David Traum](http://ict.usc.edu/profile/david-traum/).
+During my undergraduate, I was advised by [Prof. N. L. Bhanu Murthy](https://www.bits-pilani.ac.in/hyderabad/bhanumurthy/Profile). In the past, I've also had the good fortune of working with [Prof. Kallirroi Georgila](http://people.ict.usc.edu/~kgeorgila/), [Prof. David Traum](http://ict.usc.edu/profile/david-traum/), [Prof. Andrew Yates](https://andrewyates.net/), [Dr. Paramita Mirza](https://paramitamirza.com/) and [Prof. Sriram Rajamani](https://www.microsoft.com/en-us/research/people/sriram/).
 
 If you are interested in my work or would like to chat about technical interests we might share, feel free to get in touch!
 

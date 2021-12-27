@@ -1,11 +1,11 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Deep RL for Conversational Recommender Systems"
-summary: "Developing an agent to ﬁlter user input for personalized travel recommendations in a conversational recommender system using deep RL"
+title: "Deep RL for IR applications"
+summary: "Developing RL techniques for IR and NLP applications"
 authors: []
-tags: ["Reinforcement Learning", "Deep Learning"]
-categories: ["Reinforcement Learning", "Deep Learning"]
+tags: ["Reinforcement Learning", "Deep Learning", "Natural Language Processing", "Information Retrieval"]
+categories: ["Reinforcement Learning", "Deep Learning", "Natural Language Processing", "Information Retrieval"]
 date: 2019-11-01T04:46:38+05:30
 
 # Optional external URL for project (replaces project detail page).
@@ -39,4 +39,4 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-This project is for my undergraduate thesis at the Max Planck Institute for Informatics under [Dr. Andrew Yates](https://andrewyates.net/) and [Dr. Paramita Mirza](https://paramitamirza.com/) and is currently in progress. 
+Used deep reinforcement learning to recommend travel destinations to users based on forum posts and user reviews. Used deep reinforcement learning to improve document retrieval from a corpus via document expansion. This project was a part of my undergraduate thesis at the Max Planck Institute for Informatics under [Dr. Andrew Yates](https://andrewyates.net/) and [Dr. Paramita Mirza](https://paramitamirza.com/). 

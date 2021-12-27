@@ -28,8 +28,8 @@ image:
 #   icon: twitter
 
 url_code: ""
-url_pdf: ""
-url_slides: ""
+url_pdf: "https://aaai.org/ocs/index.php/FLAIRS/FLAIRS20/paper/view/18469/17622"
+url_slides: "https://drive.google.com/file/d/1twgbPq7HFnUSUn1C2NUzsGVF8b2_flxS/view"
 url_video: ""
 
 # Slides (optional).
@@ -39,4 +39,4 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-This project is currently in progress and a research paper is in preparation. I will attach the code, the slides and the paper once it has been published. This project was done under the guidance of [Prof. Kallirroi Georgila](http://people.ict.usc.edu/~kgeorgila/) and [Prof. David Traum](http://ict.usc.edu/profile/david-traum/).
+Developed a policy to control a swarm of drones that attempts to negotiate with and save civilians from a forest fire and achieved a success rate of over 95% on the task. This project was done under the guidance of [Prof. Kallirroi Georgila](http://people.ict.usc.edu/~kgeorgila/) and [Prof. David Traum](http://ict.usc.edu/profile/david-traum/).

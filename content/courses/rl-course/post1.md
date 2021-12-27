@@ -92,7 +92,6 @@ The best example of using RL with CV is probably self-driving cars. With NLP, it
 
 And so there are a ton of different applications that leverage the power of RL. There are also other slightly different uses, for example, RL can be used to [overcome non-differentiable steps in deep learning]({{< ref "post/bridging-the-gaps-with-RL/index.md" >}}).
 
-
 And with that, we've answered all the questions that we set out to! We get into a lot more details in the [next post]({{< ref "/courses/rl-course/post2.md" >}}) so make sure you take a look at that as well. 
 
 Feel free to let me know if you have any feedback!  

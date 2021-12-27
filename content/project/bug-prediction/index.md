@@ -39,4 +39,4 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-This project is currently in progress and a research paper is in preparation. I will attach the code, the dataset and the paper once it has been published. This project was done under the guidance of [Prof. N. L. Bhanu Murthy](https://www.bits-pilani.ac.in/hyderabad/bhanumurthy/Profile).
+Developed an efficient NLP-based method to extract features from source code of software projects to detect bugs. This project was done under the guidance of [Prof. N. L. Bhanu Murthy](https://www.bits-pilani.ac.in/hyderabad/bhanumurthy/Profile).
