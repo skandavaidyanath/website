@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
-title = "Experience"
+title = "Recent Experience"
 subtitle = ""
 
 # Date format for experience
@@ -32,7 +32,7 @@ date_format = "Jan 2006"
 [[experience]]
   title = "Research Intern"
   company = "Max Planck Institute for Informatics"
-  company_url = ""
+  company_url = "https://www.mpi-inf.mpg.de/home"
   location = "Saarbrucken, Germany"
   date_start = "2019-08-15"
   date_end = "2020-05-31"
@@ -42,7 +42,7 @@ date_format = "Jan 2006"
 [[experience]]
   title = "Research Intern"
   company = "USC Institute for Creative Technologies"
-  company_url = ""
+  company_url = "https://ict.usc.edu/"
   location = "Los Angeles, USA"
   date_start = "2019-05-15"
   date_end = "2019-07-20"
