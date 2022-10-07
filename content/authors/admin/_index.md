@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: First Year Master's Student of Computer Science (AI Track)
+role: Second Year Master's Student of Computer Science (AI Track)
 
 # Organizations/Affiliations
 organizations:
@@ -22,7 +22,7 @@ bio: My research interests lie primarily in the area of reinforcement learning (
 
 interests:
 - Reinforcement Learning
-- Imitation Learning
+- Sequential Decision Making
 
 education:
   courses:
@@ -66,9 +66,11 @@ social:
 #- Visitors
 ---
 
-I am a first year master's student of computer science (AI track) at Stanford University.
+I am a second year master's student of computer science (AI track) at Stanford University.
 
 My research interests lie primarily in the area of reinforcement learning (RL) and control. Through my research, I hope to gain a better understanding of _how_ machines learn and try to make them learn tasks in the same way humans do. My long-term goal would be to develop machines that understand and approach learning tasks in the same way that a human would and can generalize to a variety of settings. 
+
+I recently completed an internship at [DeepMind](https://www.deepmind.com/) where I worked with [Xinghua Lou](https://scholar.google.de/citations?user=tqPmopoAAAAJ&hl=en), [Miguel Lazaro-Gredilla](https://www.linkedin.com/in/miguel-l%C3%A1zaro-gredilla-133759a), [Dileep George](https://dileeplearning.github.io/) and others, working on planning and reinforcement learning!
 
 During my undergraduate, I was advised by [Prof. N. L. Bhanu Murthy](https://www.bits-pilani.ac.in/hyderabad/bhanumurthy/Profile). In the past, I've also had the good fortune of working with [Prof. Kallirroi Georgila](http://people.ict.usc.edu/~kgeorgila/), [Prof. David Traum](http://ict.usc.edu/profile/david-traum/), [Prof. Andrew Yates](https://andrewyates.net/), [Dr. Paramita Mirza](https://paramitamirza.com/) and [Prof. Sriram Rajamani](https://www.microsoft.com/en-us/research/people/sriram/).
 

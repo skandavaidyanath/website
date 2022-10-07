@@ -20,6 +20,16 @@ date_format = "Jan 2006"
 
 
 [[experience]]
+  title = "Research Engineer Intern"
+  company = "Google DeepMind"
+  company_url = "https://www.deepmind.com/"
+  location = "Mountain View, USA"
+  date_start = "2022-06-13"
+  date_end = "2022-09-16"
+  description = """Worked on planning and reinforcement learning"""
+
+
+[[experience]]
   title = "Research Intern"
   company = "Microsoft Research"
   company_url = "https://www.microsoft.com/en-us/research/lab/microsoft-research-india/"

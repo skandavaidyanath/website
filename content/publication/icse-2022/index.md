@@ -24,8 +24,8 @@ abstract: "Large pre-trained language models such as GPT-3, Codex, and Google’
 # Summary. An optional shortened abstract.
 summary: "ICSE 2022"
 
-tags: ["Other", "Natural Language Processing"]
-categories: ["Other", "Natural Language Processing"]
+tags: []
+categories: []
 featured: false
 
 # Custom links (optional).
@@ -40,7 +40,7 @@ url_pdf: https://arxiv.org/pdf/2112.02969.pdf
 url_code:
 url_dataset:
 url_poster:
-url_project:
+url_project: https://www.microsoft.com/en-us/research/blog/jigsaw-fixes-bugs-in-machine-written-software/
 url_slides:
 url_source:
 url_video:
@@ -58,7 +58,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: [jigsaw]
+projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

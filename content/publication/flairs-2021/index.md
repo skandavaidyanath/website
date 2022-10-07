@@ -24,8 +24,8 @@ abstract: "In search and rescue missions, robots can potentially help save survi
 # Summary. An optional shortened abstract.
 summary: "FLAIRS 2021"
 
-tags: ["Reinforcement Learning"]
-categories: ["Reinforcement Learning"]
+tags: []
+categories: []
 featured: false
 
 # Custom links (optional).
@@ -58,7 +58,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: [usc-ict]
+projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
