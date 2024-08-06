@@ -10,11 +10,11 @@ authors:
 superuser: true
 
 # Role/position
-role: Second Year Master's Student of Computer Science (AI Track)
+role: Staff Research Scientist
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
+- name: Riot Games AI Accelerator
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
@@ -22,7 +22,7 @@ bio: My research interests lie primarily in the area of reinforcement learning (
 
 interests:
 - Reinforcement Learning
-- Sequential Decision Making
+- Natural Language Processing
 
 education:
   courses:
@@ -50,6 +50,9 @@ social:
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/skanda_vaid
+- icon: google-scholar
+  icon_pack: fas
+  link: https://scholar.google.com/citations?user=CS9tprgAAAAJ&hl=en&oi=ao
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 - icon: cv
@@ -66,13 +69,13 @@ social:
 #- Visitors
 ---
 
-I am a second year master's student of computer science (AI track) at Stanford University.
+I am a Staff Research Scientist at Riot Games AI Accelerator. I conduct AI research for gaming applications and work on reinoforcement learning and large language models.
+
+Before I joined Riot, I graduated from Stanford University with a master's in computer science (AI track).
 
 My research interests lie primarily in the area of reinforcement learning (RL) and control. Through my research, I hope to gain a better understanding of _how_ machines learn and try to make them learn tasks in the same way humans do. My long-term goal would be to develop machines that understand and approach learning tasks in the same way that a human would and can generalize to a variety of settings. 
 
-I recently completed an internship at [DeepMind](https://www.deepmind.com/) where I worked with [Xinghua Lou](https://scholar.google.de/citations?user=tqPmopoAAAAJ&hl=en), [Miguel Lazaro-Gredilla](https://www.linkedin.com/in/miguel-l%C3%A1zaro-gredilla-133759a), [Dileep George](https://dileeplearning.github.io/) and others, working on planning and reinforcement learning!
-
-During my undergraduate, I was advised by [Prof. N. L. Bhanu Murthy](https://www.bits-pilani.ac.in/hyderabad/bhanumurthy/Profile). In the past, I've also had the good fortune of working with [Prof. Kallirroi Georgila](http://people.ict.usc.edu/~kgeorgila/), [Prof. David Traum](http://ict.usc.edu/profile/david-traum/), [Prof. Andrew Yates](https://andrewyates.net/), [Dr. Paramita Mirza](https://paramitamirza.com/) and [Prof. Sriram Rajamani](https://www.microsoft.com/en-us/research/people/sriram/).
+I've been fortunate to have had the opportunity to work with Dr. Dileep George, Prof. Dorsa Sadigh, Prof. Stefano Ermon, Dr. Sriram Rajamani, and several other outstanding advisors in the past.
 
 If you are interested in my work or would like to chat about technical interests we might share, feel free to get in touch!
 
