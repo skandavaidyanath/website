@@ -69,7 +69,7 @@ social:
 #- Visitors
 ---
 
-I am a Staff Research Scientist at Riot Games AI Accelerator. I conduct AI research for gaming applications and work on reinoforcement learning and large language models.
+I am a Staff Research Scientist at Riot Games AI Accelerator. I conduct AI research for gaming applications and work on reinforcement learning and large language models.
 
 Before I joined Riot, I graduated from Stanford University with a master's in computer science (AI track).
 
