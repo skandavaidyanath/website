@@ -10,11 +10,11 @@ authors:
 superuser: true
 
 # Role/position
-role: Staff Research Scientist
+role: Member of Technical Staff
 
 # Organizations/Affiliations
 organizations:
-- name: Riot Games AI Accelerator
+- name: Yutori
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
@@ -69,13 +69,9 @@ social:
 #- Visitors
 ---
 
-I am a Staff Research Scientist at Riot Games AI Accelerator. I conduct AI research for gaming applications and work on reinforcement learning and large language models.
+I am a Member of Technical Staff at [Yutori](www.yutori.com). We're building multi-modal web agents.
 
-Before I joined Riot, I graduated from Stanford University with a master's in computer science (AI track).
-
-My research interests lie primarily in the area of reinforcement learning (RL) and natural lanuage processing (NLP). Through my research, I hope to gain a better understanding of _how_ machines learn and try to make them learn tasks in the same way humans do. My long-term goal would be to develop machines that understand and approach learning tasks in the same way that a human would and can generalize to a variety of settings. 
-
-I've been fortunate to have had the opportunity to work with Dr. Dileep George, Prof. Dorsa Sadigh, Prof. Stefano Ermon, Dr. Sriram Rajamani, and several other outstanding advisors in the past.
+My research interests lie primarily in the area of reinforcement learning (RL) and natural lanuage processing (NLP). Through my research, I hope to gain a better understanding of _how_ machines learn and try to make them learn tasks in the same way humans do. My long-term goal would be to develop machines that understand and approach learning tasks in the same way that a human would and can generalize to a variety of settings.
 
 If you are interested in my work or would like to chat about technical interests we might share, feel free to get in touch!
 
