@@ -1,0 +1,224 @@
+%%%%%%%%%%%%%%%%%
+% This is an example CV created using altacv.cls (v1.1.5, 1 December 2018) written by
+% LianTze Lim (liantze@gmail.com), based on the
+% Cv created by BusinessInsider at http://www.businessinsider.my/a-sample-resume-for-marissa-mayer-2016-7/?r=US&IR=T
+%
+%% It may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2003/12/01 or later.
+%%%%%%%%%%%%%%%%
+
+%% If you are using \orcid or academicons
+%% icons, make sure you have the academicons
+%% option here, and compile with XeLaTeX
+%% or LuaLaTeX.
+% \documentclass[10pt,a4paper,academicons]{altacv}
+
+%% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
+% \documentclass[10pt,a4paper,normalphoto]{altacv}
+
+\documentclass[10pt,a4paper,ragged2e]{altacv}
+
+%% AltaCV uses the fontawesome and academicon fonts
+%% and packages.
+%% See texdoc.net/pkg/fontawecome and http://texdoc.net/pkg/academicons for full list of symbols. You MUST compile with XeLaTeX or LuaLaTeX if you want to use academicons.
+
+% Change the page layout if you need to
+\geometry{left=2cm,right=10cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm}
+
+% Change the font if you want to, depending on whether
+% you're using pdflatex or xelatex/lualatex
+\ifxetexorluatex
+  % If using xelatex or lualatex:
+  \setmainfont{Carlito}
+\else
+  % If using pdflatex:
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage[default]{lato}
+\fi
+
+% Change the colours if you want to
+\definecolor{VividPurple}{HTML}{000000}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{2E2E2E}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% Selected publications are maintained manually in page1sidebar.tex.
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+}
+
+\begin{document}
+\name{Skanda Vaidyanath}
+\tagline{Founding AI Researcher, Yutori}
+% Cropped to square from https://en.wikipedia.org/wiki/Marissa_Mayer#/media/File:Marissa_Mayer_May_2014_(cropped).jpg, CC-BY 2.0
+%\photo{3.3cm}{profile.jpg}
+\personalinfo{%
+  % Not all of these are required!
+  % You can add your own with \printinfo{symbol}{detail}
+  \email{\href{mailto:svaidyan@stanford.edu}{svaidyan@stanford.edu}}
+%   \phone{000-00-0000}
+%  \mailaddress{Address, Street, 00000 County}
+%  \location{Mumbai, India}
+  \homepage{\href{https://skandavaidyanath.github.io/}{skandavaidyanath.github.io}}
+%  \twitter{@marissamayer}
+  \linkedin{\href{https://www.linkedin.com/in/skanda-vaidyanath}{skanda-vaidyanath}}
+   \github{\href{https://github.com/skandavaidyanath}{skandavaidyanath}}
+   \scholar{\href{https://scholar.google.com/citations?user=CS9tprgAAAAJ&hl=en&oi=ao}{Skanda Vaidyanath}}
+   % I'm just making this up though.
+%   \orcid{orcid.org/0000-0000-0000-0000} % Obviously making this up too. If you want to use this field (and also other academicons symbols), add "academicons" option to \documentclass{altacv}
+}
+
+%% Make the header extend all the way to the right, if you want.
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+\AtBeginEnvironment{itemize}{\small}
+
+%% Provide the file name containing the sidebar contents as an optional parameter to \cvsection.
+%% You can always just use \marginpar{...} if you do
+%% not need to align the top of the contents to any
+%% \cvsection title in the "main" bar.
+
+\cvsection[page1sidebar]{Education}
+\cvevent{M.S. Computer Science A.I. Track}{Stanford University}{Sep 2021 -- Jun 2023}{}
+\begin{itemize}
+    \item \textbf{CGPA: 4.06/4}
+\end{itemize}
+\cvevent{B.E. (Hons.) Computer Science with a Minor in Data Science}{BITS Pilani, Hyderabad Campus}{Jun 2016 -- May 2020}{}
+\begin{itemize}
+\item \textbf{Class valedictorian.}
+%\smallskip
+\item \textbf{CGPA: 9.93/10, Major CGPA (only CS courses): 10.00/10}
+\end{itemize}
+
+
+
+\cvsection{Recent Experience}
+
+\cvevent{Founding AI Researcher}{Yutori}{Feb 2025 -- Present}{San Francisco, California}
+\begin{itemize}
+    \item Post-trained the \href{https://yutori.com/blog/introducing-n1}{Navigator n1}, \href{https://yutori.com/blog/introducing-n1-5}{n1.5}, and \href{https://yutori.com/blog/introducing-n2}{n2} model series using reinforcement learning and self-distillation (GRPO variants and \href{https://arxiv.org/abs/2601.20802}{SDPO}).
+    \item \href{https://yutori.com/blog/introducing-n2}{Navigator n2} is a 27B computer-use model achieving \textbf{SOTA} results on four of five evaluated benchmarks.
+    \item Built the agentic harness and backend for \href{https://yutori.com/scouts}{Scouts} and \href{https://yutori.com/delegate}{Delegate}.
+\end{itemize}
+
+\divider
+
+\cvevent{Staff Research Scientist}{Riot Games AI Accelerator}{Jul 2023 -- Feb 2025}{Redwood City, California}
+\begin{itemize}
+    \item Trained self-play policies for two-player zero-sum partially observable stochastic games, achieving professional-level performance.
+    \item Developed game-theoretic extensions to \href{https://arxiv.org/pdf/1912.00167}{asynchronous PPO} based on \href{https://arxiv.org/pdf/2206.15378}{R-NaD} and \href{https://arxiv.org/pdf/2206.05825}{magnetic mirror descent (MMD)}.
+    \item Scaled self-play using large-scale distributed reinforcement learning.
+\end{itemize}
+
+\divider
+
+\cvevent{Research Engineer Intern}{Google DeepMind}{Jun 2022 -- Sep 2022}{Mountain View, California}
+\begin{itemize}
+    \item Co-developed \href{https://deepmind-pushworld.github.io/play/}{PushWorld}, a benchmark of 200+ puzzles for manipulation planning with movable obstacles and tools \href{https://arxiv.org/abs/2301.10289}{[paper]}.
+    \item Evaluated classical planners and model-free RL agents; introduced a planning heuristic 40$\times$ faster than the strongest baseline.
+\end{itemize}
+
+\divider
+
+\cvevent{Research Intern}{Microsoft Research}{Dec 2020 -- Jul 2021}{Bangalore, India}
+\begin{itemize}
+    \item Built \href{https://www.microsoft.com/en-us/research/project/project-jigsaw/}{Jigsaw}, a multi-modal system that synthesizes Pandas code from natural language and I/O examples using GPT-3 and Codex \href{https://arxiv.org/html/2112.02969v1}{[paper]}.
+    \item Developed program-analysis and synthesis post-processing to repair reference, argument, and semantic errors and learn from user feedback.
+\end{itemize}
+
+% \cvevent{Research Intern}{Max Planck Institute for Informatics}{Aug 2019 -- May 2020}{Saarbrucken, Germany}
+% \begin{itemize}
+%     \item Worked on fine-tuning LLMs with RL for information retrieval applications.
+% \end{itemize}
+
+% \cvevent{Research Intern}{Max Planck Institute for Informatics}{Aug 2019 -- May 2020}{Saarbrucken, Germany}
+% \begin{itemize}
+%     %\item Used deep reinforcement learning to recommend travel destinations to users based on forum posts and user reviews.
+%     %\item Used deep reinforcement learning to improve document retrieval from a corpus via document expansion.
+%     \item Worked on projects at the intersection of deep RL and information retrieval
+%     \item \textbf{Keywords:} Information retrieval, natural language processing, reinforcement learning
+% \end{itemize}
+
+% \cvevent{Research Intern (IUSSTF-Viterbi programme)}{USC Institute for Creative Technologies}{May 2019 -- July 2019}{Los Angeles, USA}
+% \begin{itemize}
+%     %\item Developed a policy to control a swarm of drones that attempts to negotiate with and save civilians from a forest fire and achieved a success rate of over 95\% on the task.
+%     \item Worked on RL algorithms to control a swarm of drones that attempts to negotiate with and save civilians from a forest fire.
+%     \item \textbf{Keywords:} Reinforcement learning
+% \end{itemize}
+
+%\divider
+
+% \divider
+%\cvskill{German}{3}
+
+
+%\divider
+% \divider
+
+% \cvevent{Product Engineer}{Google}{23 June 1999 -- 2001}{Palo Alto, CA}
+
+% \begin{itemize}
+% \item Joined the company as employe \#20 and female employee \#1
+% \item Developed targeted advertisement in order to use user's search queries and show them related ads
+% \end{itemize}
+
+%\cvsection{A Day of My Life}
+
+% Adapted from @Jake's answer from http://tex.stackexchange.com/a/82729/226
+% \wheelchart{outer radius}{inner radius}{
+% comma-separated list of value/text width/color/detail}
+% Some ad-hoc tweaking to adjust the labels so that they don't overlap
+% \wheelchart{1.5cm}{0.5cm}{%
+%   10/10em/accent!30/Sleeping \& dreaming about work,
+%   25/9em/accent!60/Public resolving issues with Yahoo!\ investors,
+%   5/13em/accent!10/\footnotesize\\[1ex]New York \& San Francisco Ballet Jawbone board member,
+%   20/15em/accent!40/Spending time with family,
+%   5/8em/accent!20/\footnotesize Business development for Yahoo!\ after the Verizon acquisition,
+%   30/9em/accent/Showing Yahoo!\ employees that their work has meaning,
+%   5/8em/accent!20/Baking cupcakes
+% }
+
+\clearpage
+
+% \cvsection[page2sidebar]{Publications}
+
+% \printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
+
+% \divider
+
+% \printbibliography[heading=pubtype,title={\printinfo{\faFileTextO}{Journal Articles}}, type=article]
+
+% \divider
+
+% \printbibliography[heading=pubtype,title={\printinfo{\faGroup}{Conference Proceedings}},type=inproceedings]
+
+% %% If the NEXT page doesn't start with a \cvsection but you'd
+% %% still like to add a sidebar, then use this command on THIS
+% %% page to add it. The optional argument lets you pull up the
+% %% sidebar a bit so that it looks aligned with the top of the
+% %% main column.
+% % \addnextpagesidebar[-1ex]{page3sidebar}
+
+
+\end{document}
