@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Member of Technical Staff
+role: Founding AI Researcher
 
 # Organizations/Affiliations
 organizations:
@@ -22,7 +22,7 @@ bio: My research interests lie primarily in the area of reinforcement learning (
 
 interests:
 - Reinforcement Learning
-- Natural Language Processing
+- LLMs
 
 education:
   courses:
@@ -69,9 +69,10 @@ social:
 #- Visitors
 ---
 
-I am a Member of Technical Staff at [Yutori](https://yutori.com/). We're building multi-modal web agents.
+I am a Founding AI Researcher at [Yutori](https://yutori.com/). We're building multi-modal computer use agents.
 
-My research interests lie primarily in the area of reinforcement learning (RL) and natural lanuage processing (NLP). Through my research, I hope to gain a better understanding of _how_ machines learn and try to make them learn tasks in the same way humans do. My long-term goal would be to develop machines that understand and approach learning tasks in the same way that a human would and can generalize to a variety of settings.
+**Our latest model, n2, is a 27B model at the cost-performance frontier for CUA models and is SOTA on four of five evaluated benchmarks. Check out the blog [here](https://yutori.com/blog/introducing-n2).**
+
+My current research focuses on training LLMs with reinforcement learning to solve challenging, long-horizon, multi-step tasks. These tasks often provide only sparse, binary feedback, creating difficult credit-assignment and exploration challenges. To address these challenges, I'm exploring techniques that enable models to learn from natural-language feedback. I'm also eager to explore applications of LLMs to the natural sciences and build systems capable of conducting frontier research.
 
 If you are interested in my work or would like to chat about technical interests we might share, feel free to get in touch!
-
