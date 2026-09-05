@@ -73,6 +73,6 @@ I am a Founding AI Researcher at [Yutori](https://yutori.com/). We're building m
 
 **Our latest model, n2, is a 27B model at the cost-performance frontier for CUA models and is SOTA on four of five evaluated benchmarks. Check out the blog [here](https://yutori.com/blog/introducing-n2).**
 
-My background is in deep reinforcement learning, where I studied exploration, credit assignment, hierarchical learning, and skill discovery. I'm now exploring how those ideas can improve LLM post-training for challenging, long-horizon tasks with sparse, binary rewards. For problems without clear reward signals, I'm also studying how models can learn from natural-language feedback. Looking ahead, I'm excited to explore how LLMs might advance the natural sciences and contribute to systems capable of conducting frontier research.
+My background is in deep reinforcement learning, where my research focused on hierarchical learning and credit assignment. I'm now exploring how those ideas can improve LLM post-training for challenging, long-horizon tasks with sparse, binary rewards. For problems without clear reward signals, I'm also studying how models can learn from natural-language feedback. Looking ahead, I'm excited to explore how LLMs might advance the natural sciences and contribute to systems capable of conducting frontier research.
 
 If you are interested in my work or would like to chat about technical interests we might share, feel free to get in touch!
