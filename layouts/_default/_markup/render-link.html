@@ -1,0 +1,2 @@
+{{- /* Restore `hrefTargetBlank = true` from the old Blackfriday config: Goldmark ignores it. */ -}}
+<a href="{{ .Destination | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if or (strings.HasPrefix .Destination "http") (strings.HasPrefix .Destination "//") }} target="_blank"{{ end }}>{{ .Text | safeHTML }}</a>
